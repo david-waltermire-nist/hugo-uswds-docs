@@ -2,3 +2,12 @@
   font-family: inherit;
   z-index: auto !important;
 }
+
+@media print {
+  #nist-header {
+    display: none;
+  }
+  .nist-footer {
+    display: none;
+  }
+}
