@@ -140,7 +140,6 @@ jobs: # a collection of
       - *checkout-submodules
       - *attach_build_workspace
       - check-skip-build
-      - *restore_gem_cache
       - install-bundler
       - install-hugo
       - run:
